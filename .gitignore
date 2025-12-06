@@ -1,0 +1,7 @@
+node_modules/
+.env
+upload
+requests.rest
+mind-type-blogg-webapp-firebase-adminsdk.json
+
+

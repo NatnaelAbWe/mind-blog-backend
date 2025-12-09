@@ -44,7 +44,6 @@ const corsOptions = {
 };
 
 server.use(cors(corsOptions));
-server.options("*", cors(corsOptions));
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Credentials", "true");
